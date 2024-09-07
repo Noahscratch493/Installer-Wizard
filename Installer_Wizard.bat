@@ -97,8 +97,7 @@ echo =============================================
 echo Welcome to the Installer Wizard
 echo =============================================
 echo.
-echo Installer Wizard created by Your Name.
-echo Special thanks to all contributors and software developers.
+echo Installer Wizard created by Noahscratch493.
 echo.
 pause
 cls
