@@ -1,0 +1,15 @@
+https://adoptium.net/releases.html?variant=openjdk8
+https://adoptium.net/releases.html?variant=openjdk8
+https://adoptium.net/releases.html?variant=openjdk11
+https://adoptium.net/releases.html?variant=openjdk17
+https://adoptium.net/releases.html?variant=openjdk21
+https://dotnet.microsoft.com/download/dotnet-framework-runtime
+https://dotnet.microsoft.com/download/dotnet-framework
+https://dotnet.microsoft.com/download/dotnet/5.0
+https://dotnet.microsoft.com/download/dotnet/5.0
+https://dotnet.microsoft.com/download/dotnet/6.0
+https://dotnet.microsoft.com/download/dotnet/6.0
+https://dotnet.microsoft.com/download/dotnet/7.0
+https://dotnet.microsoft.com/download/dotnet/7.0
+https://dotnet.microsoft.com/download/dotnet/8.0
+https://dotnet.microsoft.com/download/dotnet/8.0
