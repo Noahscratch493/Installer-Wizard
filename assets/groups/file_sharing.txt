@@ -1,1 +1,1 @@
-https://www.qbittorrent.org/download.php
+qBittorrent,https://www.qbittorrent.org/download.php
