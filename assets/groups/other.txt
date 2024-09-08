@@ -1,6 +1,6 @@
-https://evernote.com/download
-https://www.google.com/earth/download/
-https://store.steampowered.com/about/
-https://keepass.info/download.html
-https://www.voidtools.com/downloads/
-https://www.nvaccess.org/download/
+Evernote,https://evernote.com/download
+Google Earth,https://www.google.com/earth/download/gep/agree.html
+Steam,https://store.steampowered.com/about/
+KeePass 2,https://keepass.info/download.html
+Everything,https://www.voidtools.com/
+NV Access,https://www.nvaccess.org/download/
