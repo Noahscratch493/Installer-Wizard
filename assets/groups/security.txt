@@ -1,7 +1,7 @@
-https://www.microsoft.com/en-us/defender
-https://www.malwarebytes.com/mwb-download/
-https://www.avast.com/en-us/index#pc
-https://www.avg.com/en-us/download
-https://www.safer-networking.org/download/
-https://www.avira.com/en/free-security
-https://www.superantispyware.com/download.html
+Essentials,https://support.microsoft.com/en-us/help/14210/security-essentials-download
+Malwarebytes,https://www.malwarebytes.com/
+Avast,https://www.avast.com/en-us/free-antivirus-download
+AVG,https://www.avg.com/en-us/free-antivirus-download
+Spybot 2,https://www.safer-networking.org/download/
+Avira,https://www.avira.com/en/free-antivirus-windows
+SUPERAntiSpyware,https://www.superantispyware.com/
