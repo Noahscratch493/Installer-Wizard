@@ -1,16 +1,20 @@
-https://www.python.org/downloads/
-https://filezilla-project.org/download.php
-https://notepad-plus-plus.org/downloads/
-https://adoptium.net/releases.html?variant=openjdk8
-https://adoptium.net/releases.html?variant=openjdk8
-https://adoptium.net/releases.html?variant=openjdk11
-https://adoptium.net/releases.html?variant=openjdk17
-https://adoptium.net/releases.html?variant=openjdk21
-https://aws.amazon.com/corretto/
-https://aws.amazon.com/corretto/
-https://aws.amazon.com/corretto/
-https://www.winscp.net/download/
-https://www.putty.org/
-https://winmerge.org/downloads/
-https://www.eclipse.org/downloads/
-https://code.visualstudio.com/Download
+Python x64 3,https://www.python.org/downloads/
+Python 3,https://www.python.org/downloads/
+Python,https://www.python.org/downloads/release/python-2718/
+FileZilla,https://filezilla-project.org/
+Notepad++,https://notepad-plus-plus.org/downloads/
+JDK (AdoptOpenJDK) x64 8,https://adoptopenjdk.net/releases.html?variant=openjdk8
+JDK (AdoptOpenJDK) 8,https://adoptopenjdk.net/releases.html?variant=openjdk8
+JDK (AdoptOpenJDK) x64 11,https://adoptopenjdk.net/releases.html?variant=openjdk11
+JDK (AdoptOpenJDK) x64 17,https://adoptopenjdk.net/releases.html?variant=openjdk17
+JDK (AdoptOpenJDK) x64 21,https://adoptopenjdk.net/releases.html?variant=openjdk21
+JDK (Amazon Corretto) x64 8,https://aws.amazon.com/corretto/
+JDK (Amazon Corretto) 8,https://aws.amazon.com/corretto/
+JDK (Amazon Corretto) x64 11,https://aws.amazon.com/corretto/
+JDK (Amazon Corretto) x64 17,https://aws.amazon.com/corretto/
+JDK (Amazon Corretto) x64 21,https://aws.amazon.com/corretto/
+WinSCP,https://winscp.net/eng/download.php
+PuTTY,https://www.putty.org/
+WinMerge,https://winmerge.org/downloads/
+Eclipse,https://www.eclipse.org/downloads/
+Visual Studio Code,https://code.visualstudio.com/
