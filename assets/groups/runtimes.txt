@@ -1,15 +1,15 @@
-https://adoptium.net/releases.html?variant=openjdk8
-https://adoptium.net/releases.html?variant=openjdk8
-https://adoptium.net/releases.html?variant=openjdk11
-https://adoptium.net/releases.html?variant=openjdk17
-https://adoptium.net/releases.html?variant=openjdk21
-https://dotnet.microsoft.com/download/dotnet-framework-runtime
-https://dotnet.microsoft.com/download/dotnet-framework
-https://dotnet.microsoft.com/download/dotnet/5.0
-https://dotnet.microsoft.com/download/dotnet/5.0
-https://dotnet.microsoft.com/download/dotnet/6.0
-https://dotnet.microsoft.com/download/dotnet/6.0
-https://dotnet.microsoft.com/download/dotnet/7.0
-https://dotnet.microsoft.com/download/dotnet/7.0
-https://dotnet.microsoft.com/download/dotnet/8.0
-https://dotnet.microsoft.com/download/dotnet/8.0
+Java (AdoptOpenJDK) x64 8,https://adoptopenjdk.net/releases.html?variant=openjdk8
+Java (AdoptOpenJDK) 8,https://adoptopenjdk.net/releases.html?variant=openjdk8
+Java (AdoptOpenJDK) x64 11,https://adoptopenjdk.net/releases.html?variant=openjdk11
+Java (AdoptOpenJDK) x64 17,https://adoptopenjdk.net/releases.html?variant=openjdk17
+Java (AdoptOpenJDK) x64 21,https://adoptopenjdk.net/releases.html?variant=openjdk21
+.NET 4.8,https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48
+.NET 4.8.1,https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481
+.NET Desktop Runtime x64 5,https://dotnet.microsoft.com/en-us/download/dotnet/5.0/runtime
+.NET Desktop Runtime 5,https://dotnet.microsoft.com/en-us/download/dotnet/5.0/runtime
+.NET Desktop Runtime x64 6,https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime
+.NET Desktop Runtime 6,https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime
+.NET Desktop Runtime x64 7,https://dotnet.microsoft.com/en-us/download/dotnet/7.0/runtime
+.NET Desktop Runtime 7,https://dotnet.microsoft.com/en-us/download/dotnet/7.0/runtime
+.NET Desktop Runtime x64 8,https://dotnet.microsoft.com/en-us/download/dotnet/8.0/runtime
+.NET Desktop Runtime 8,https://dotnet.microsoft.com/en-us/download/dotnet/8.0/runtime
