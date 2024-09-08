@@ -1,4 +1,4 @@
-https://www.dropbox.com/install
-https://www.google.com/drive/download/
-https://www.microsoft.com/en-us/microsoft-365/onedrive/download
-https://www.sugarsync.com/download.html
+Dropbox,https://www.dropbox.com/install
+Google Drive for Desktop,https://www.google.com/drive/download/
+OneDrive,https://www.microsoft.com/en-us/microsoft-365/onedrive/download
+SugarSync,https://www.sugarsync.com/download/
