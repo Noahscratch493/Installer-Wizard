@@ -1,14 +1,14 @@
-https://www.teamviewer.com/en/download/windows/
-https://www.imgburn.com/index.php?act=download
-https://www.realvnc.com/en/connect/download/
-https://www.realvnc.com/en/connect/download/viewer/
-https://www.codesector.com/downloads/TeraCopySetup.exe
-https://cdburnerxp.se/en/home
-https://www.revouninstaller.com/download-now/
-https://www.launchy.net/
-https://windirstat.net/download.html
-https://wiztree.en.lo4d.com/windows
-https://www.glarysoft.com/downloads/
-https://infrarecorder.org/
-https://github.com/Open-Shell/Open-Shell-Menu/releases
-https://www.ccleaner.com/ccleaner/download
+TeamViewer 15,https://www.teamviewer.com/en/download/windows/
+ImgBurn,https://www.imgburn.com/
+RealVNC Server,https://www.realvnc.com/en/connect/download/vnc/
+RealVNC Viewer,https://www.realvnc.com/en/connect/download/viewer/
+TeraCopy,https://www.codesector.com/teracopy
+CDBurnerXP,https://cdburnerxp.se/
+Revo,https://www.revouninstaller.com/
+Launchy,https://www.launchy.net/
+WinDirStat,https://windirstat.net/
+WizTree,https://diskanalyzer.com/
+Glary,https://www.glarysoft.com/glary-utilities/download/
+InfraRecorder,https://infrarecorder.org/?page_id=5
+Open-Shell,https://open-shell.github.io/Open-Shell-Menu/
+CCleaner,https://www.ccleaner.com/ccleaner/download
