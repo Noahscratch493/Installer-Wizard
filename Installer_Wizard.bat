@@ -1,12 +1,10 @@
 @echo off
-title Installer Wizard
 color 0A
+setlocal enabledelayedexpansion
 
-:MENU
+:MainMenu
 cls
-echo =============================================
 echo Welcome to the Installer Wizard
-echo =============================================
 echo.
 echo 1. Web Browsers
 echo 2. Messaging
@@ -21,84 +19,63 @@ echo 10. Other
 echo 11. Utilities
 echo 12. Compression
 echo 13. Developer Tools
-echo 14. Credits
-echo 15. Exit
 echo.
+set /p option=Select a category (1-13): 
 
-set /p choice="Enter your choice (1-15): "
+if "%option%"=="1" set category=browsers
+if "%option%"=="2" set category=messaging
+if "%option%"=="3" set category=media
+if "%option%"=="4" set category=runtimes
+if "%option%"=="5" set category=imaging
+if "%option%"=="6" set category=documents
+if "%option%"=="7" set category=security
+if "%option%"=="8" set category=file_sharing
+if "%option%"=="9" set category=online_storage
+if "%option%"=="10" set category=other
+if "%option%"=="11" set category=utilities
+if "%option%"=="12" set category=compression
+if "%option%"=="13" set category=developer_tools
 
-if "%choice%"=="14" goto Credits
-if "%choice%"=="15" exit
-
-set "category="
-if "%choice%"=="1" set "category=browsers"
-if "%choice%"=="2" set "category=messaging"
-if "%choice%"=="3" set "category=media"
-if "%choice%"=="4" set "category=runtimes"
-if "%choice%"=="5" set "category=imaging"
-if "%choice%"=="6" set "category=documents"
-if "%choice%"=="7" set "category=security"
-if "%choice%"=="8" set "category=file_sharing"
-if "%choice%"=="9" set "category=online_storage"
-if "%choice%"=="10" set "category=other"
-if "%choice%"=="11" set "category=utilities"
-if "%choice%"=="12" set "category=compression"
-if "%choice%"=="13" set "category=developer_tools"
-
-if defined category (
-    goto ShowPrograms
+if not defined category (
+    echo Invalid choice. Press Enter to continue...
+    pause >nul
+    goto MainMenu
 )
 
-goto MENU
+call :DisplayCategory
+goto MainMenu
 
-:ShowPrograms
+:DisplayCategory
 cls
-echo =============================================
-echo Welcome to the Installer Wizard
-echo =============================================
+echo !category!
 echo.
-echo Select a program to install from the %category% category:
-echo.
-
 setlocal enabledelayedexpansion
+set "validChoice=false"
 
-set count=1
-for /f "tokens=1,* delims=," %%a in (assets/groups/%category%.txt) do (
-    echo !count!. %%a
-    set "program[!count!]=%%b"
-    set /a count+=1
+rem Display the list of applications
+for /f "tokens=1,2 delims=," %%a in (assets/groups/%category%.txt) do (
+    echo %%a
 )
 
 echo.
-set /p program_choice="Enter the number of the program you want to install: "
+set /p choice=Enter the name of the program to install or type "back" to return to the main menu: 
 
-if defined program[%program_choice%] (
-    cls
-    echo =============================================
-    echo Welcome to the Installer Wizard
-    echo =============================================
-    echo Opening: !program[%program_choice%]!
-    start !program[%program_choice%]!
-    timeout /t 10
-) else (
-    cls
-    echo =============================================
-    echo Welcome to the Installer Wizard
-    echo =============================================
-    echo Invalid choice, please try again.
-    timeout /t 2
+rem Check if the user wants to go back to the main menu
+if /i "%choice%"=="back" goto MainMenu
+
+rem Check if the choice is valid and start the download
+for /f "tokens=1,2 delims=," %%a in (assets/groups/%category%.txt) do (
+    if /i "%choice%"=="%%a" (
+        set "validChoice=true"
+        start "" "%%b"
+        goto :EOF
+    )
 )
 
-goto MENU
+if not "!validChoice!"=="true" (
+    echo Invalid choice. Press Enter to continue...
+    pause >nul
+    goto DisplayCategory
+)
 
-:Credits
-cls
-echo =============================================
-echo Welcome to the Installer Wizard
-echo =============================================
-echo.
-echo Installer Wizard created by Noahscratch493.
-echo.
-pause
-cls
-goto MENU
+endlocal
