@@ -43,7 +43,7 @@ To add new programs:
 2. Add a new line with the program name and download URL in the format:
  
    ```
-   https://example.com/download
+   AppName,https://example.com/download
    ```
 
 ## License
