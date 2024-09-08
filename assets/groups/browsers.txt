@@ -1,4 +1,4 @@
-https://www.google.com/chrome/
-https://www.opera.com/download
-https://www.mozilla.org/firefox/download/
-https://www.microsoft.com/edge
+Chrome,https://www.google.com/chrome/
+Opera,https://www.opera.com/
+Firefox,https://www.mozilla.org/firefox/
+Edge,https://www.microsoft.com/edge
